@@ -1,10 +1,12 @@
 PROJECT_TITLE:
 "Unemployment-Data_Analysis-using-PowerBI"
 
+
 DESCRIPTION:
 This project aims to analyze and visualize the unemployment data across various regions in India using Power BI. 
 The project explores datasets, cleans and queries data in MySQL, and retrieves it for analysis in Power BI.
 Retrieved data is connected to Power BI for visualization, including bar charts, line graphs and donut charts
+
 
 
 STEP:1  DATA COLLECTION
@@ -13,6 +15,7 @@ STEP:1  DATA COLLECTION
    UNEMPLOYMENT IN INDIA - Unemployment dataset of each States of Iindia - “kaggle.com”
   URL:
    “https://www.kaggle.com/datasets/gokulrajkmv/unemployment-in-india”
+   
 
 
 STEP-2:  DATA CLEANING (JUPYTER NOTEBOOK_ VS-CODE)
@@ -20,6 +23,7 @@ STEP-2:  DATA CLEANING (JUPYTER NOTEBOOK_ VS-CODE)
    In this step, we used Jupyter Notebook and VS Code to clean the data downloaded in the previous step. 
    The cleaning process involved removing missing values, handling duplicates ect,. 
    The cleaned data was saved to a new CSV file for further processing and analysis.
+
 
 
 STEP-3:  IMPORT NEW_CSV_FILE IN MYSQL & QUERY TO EXTRACT_DATA (MYSQL WORKBENCH)
@@ -30,6 +34,7 @@ STEP-3:  IMPORT NEW_CSV_FILE IN MYSQL & QUERY TO EXTRACT_DATA (MYSQL WORKBENCH)
    →New connection→Create schema→ Data import wizard→ Browse the  file path → Click next → Apply.
    
    
+   
 STEP-4:  LOAD_DATA INTO POWERBI (PowerBI)
 
   In this step, we loaded the data extracted in the previous step into Power BI using the MySQL connector. 
@@ -37,6 +42,7 @@ STEP-4:  LOAD_DATA INTO POWERBI (PowerBI)
   ➔Open Power BI: 
     The "Get Data" option in Power BI is used to connect to the MySQL database and  select the table containing the employment data.  
     →Getdata → More →MySQL Database → Connect.
+    
     
     
 STEP-5  CREATE_DASHBOARD (POWERBI)
